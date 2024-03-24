@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/* logo Styles */
+.logo {
+    width: 220px; 
+    height: 58px;
+    margin-right: 11px;
+    position:absolute;
+    left: 0;
+    margin: 10px;
+    z-index: 100;
+}
+
+h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Center-aligned headings */
+h1, h2 {
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+
+
+/* Input Section */
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: cursive;
+    padding: 15px;
+    background-color: #faff00;
+    background-image: linear-gradient(319deg, #faff00 0%, #ff1000 37%, #ff6a00 100%);
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* shadow effect */
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-section input {
+    padding: 8px; 
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+}
+/* button style */
+.input-section button {
+    padding: 8px 16px; 
+    background-color: royalblue; /* button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* shadow effect */
+}
+.input-section button:hover{
+    background-color: green; 
+    transition: 0.5s;
+}
+
+/* Expenses List */
+.expenses-list {
+    margin: 25px;
+    padding-top: 20px;
+}
+
+/* Table Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* White background */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* shadow effect */
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 13px; /* Increased padding for table cells */
+    text-align: center;
+}
+td{
+    text-align: left;
+    padding: 15px;
+}
+
+th {
+    background-color:  #4844A3; 
+    color: #fff;
+}
+td:nth-child(even) {
+    background-color: #98FB98; /* Mint Green background for even rows */
+}
+
+td:nth-child(odd) {
+    background-color: #E6E6FA; /* Lavender background for odd rows */
+}
+tfoot td {
+    font-weight: bold;
+}
+/* Delete button */
+.delete-btn {
+    padding: 8px 16px; /* Increased padding for delete button */
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
